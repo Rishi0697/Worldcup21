@@ -1,0 +1,200 @@
+
+/*::before,
+after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 18px;
+}*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-size: 1.125rem;
+    font-family: "poppins", sans-serif;
+    color: white;
+}
+
+header{
+    background-color: blue;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list a{
+    display: block;
+    padding: 1em;
+    text-transform: uppercase;
+}
+.nav-list a:hover{
+    background-color: black;
+    color: red;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1,
+h2{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.Home-section{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2020/11/t20-world-cup-trophy-1605177129.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.Home-section h2{
+    font-size: 3rem;
+    color: red;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.Squad-section{
+    
+    
+    background-image: url('https://images.indianexpress.com/2018/08/virat-kohli-12005.jpg');
+    
+    
+    background-position: center;
+    background-size: cover;
+    
+}
+.Squad-flex{
+    width: 100%;
+    max-width: 1280px;
+    margin: 2em auto 3em auto;
+    display: flex;
+    gap: 1em;
+}
+.Squad-tile{
+    background-color: black;
+    border-radius: 5px;
+    display: block;
+    width: 320px;
+}
+.Squad-image{
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+.Squad-title{
+    text-align: center;
+    padding: 0.5em;
+}
+.Squad-title:hover{
+    background-color: black;
+    color: red;
+}
+.schedule-section{
+    
+    background-color: black;
+    border: 2px solid green;
+    height: 80vh;
+    
+    
+}
+.schedule-section h1{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 10px;
+    color: green;
+    
+    background-color: honeydew;
+    border: whitesmoke;
+    border-radius: 20px;
+}
+table{
+    border: 1px solid white;
+    
+    
+}
+.center{
+    margin-top: 35px;
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    padding: 2px;
+    border: 1px solid white;
+}
+td{
+    padding: 2px;
+    border: 1px solid white;
+}
+
+.contact-section{
+    
+    background: rgb(109, 62, 153);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.match{
+    font-style: italic;
+    font-weight: 400;
+    margin: 1em;
+
+}
+.contact-links{
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact{
+    padding: 0.75em 1.5em;
+    transition: 0.3s ease-out;
+   transform: translateY(0);
+}
+.contact:hover{
+    transform: translateY(10px);
+}
+footer{
+    background-color: black;
+    display: flex;
+    
+    border-top: 4px solid green;
+    padding: 2em 0;
+    justify-content: space-evenly;
+
+}
+    
+
